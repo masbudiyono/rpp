@@ -1,1 +1,3397 @@
-rpp
+{
+  "metadata": {
+    "title": "Master RPP Dinamis",
+    "format_version": "1.0",
+    "generated_at": "2026-09-18T16:23:16.437009+07:00",
+    "target_total_records": 5034,
+    "records_in_this_file": 24,
+    "status": "starter_source_grounded",
+    "note": "Struktur final kompatibel dengan rpp.html. File ini memuat sampel sumber-grounded yang berhasil dipulihkan pada sesi ini. Untuk menghasilkan 5.034 record penuh, gunakan file sumber 'Capaian Pembelajaran dan Tujuan Pembelajaran.json' sebagai input konversi."
+  },
+  "rpp": [
+    {
+      "id": "rpp_tp_00001",
+      "tp_id": "tp_00001",
+      "no_tujuan_pembelajaran": 1,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid percaya kepada Tuhan Yang Maha Esa sebagai pencipta dirinya, makhluk lain dan alam, serta mulai mengenal dan mempraktikkan ajaran pokok sesuai dengan agama dan kepercayaannya.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid percaya kepada Tuhan Yang Maha Esa sebagai pencipta dirinya, makhluk lain dan alam, serta mulai mengenal dan mempraktikkan ajaran pokok sesuai dengan agama dan kepercayaannya."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid percaya kepada Tuhan Yang Maha Esa sebagai pencipta dirinya, makhluk lain dan alam, serta mulai mengenal dan mempraktikkan ajaran pokok sesuai dengan agama dan kepercayaannya.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00002",
+      "tp_id": "tp_00002",
+      "no_tujuan_pembelajaran": 2,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid menghargai diri sendiri dan memiliki rasa syukur terhadap Tuhan YME sehingga dapat berpartisipasi aktif dalam menjaga kebersihan, kesehatan, dan keselamatan dirinya.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid menghargai diri sendiri dan memiliki rasa syukur terhadap Tuhan YME sehingga dapat berpartisipasi aktif dalam menjaga kebersihan, kesehatan, dan keselamatan dirinya."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid menghargai diri sendiri dan memiliki rasa syukur terhadap Tuhan YME sehingga dapat berpartisipasi aktif dalam menjaga kebersihan, kesehatan, dan keselamatan dirinya.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00003",
+      "tp_id": "tp_00003",
+      "no_tujuan_pembelajaran": 3,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid menghargai sesama manusia dengan berbagai perbedaannya sehingga mempraktikkan perilaku baik dan berakhlak mulia.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid menghargai sesama manusia dengan berbagai perbedaannya sehingga mempraktikkan perilaku baik dan berakhlak mulia."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid menghargai sesama manusia dengan berbagai perbedaannya sehingga mempraktikkan perilaku baik dan berakhlak mulia.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00004",
+      "tp_id": "tp_00004",
+      "no_tujuan_pembelajaran": 4,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid menghargai alam dan seluruh makhluk hidup ciptaan Tuhan Yang Maha Esa.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid menghargai alam dan seluruh makhluk hidup ciptaan Tuhan Yang Maha Esa."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid menghargai alam dan seluruh makhluk hidup ciptaan Tuhan Yang Maha Esa.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00005",
+      "tp_id": "tp_00005",
+      "no_tujuan_pembelajaran": 5,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mengenali identitas dirinya yang terbentuk oleh karakteristik fisik dan gender, minat, kebutuhan, agama, dan sosial budaya.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mengenali identitas dirinya yang terbentuk oleh karakteristik fisik dan gender, minat, kebutuhan, agama, dan sosial budaya."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mengenali identitas dirinya yang terbentuk oleh karakteristik fisik dan gender, minat, kebutuhan, agama, dan sosial budaya.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00006",
+      "tp_id": "tp_00006",
+      "no_tujuan_pembelajaran": 6,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mengenali kebiasaan-kebiasaan di lingkungan keluarga, satuan pendidikan, dan masyarakat.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mengenali kebiasaan-kebiasaan di lingkungan keluarga, satuan pendidikan, dan masyarakat."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mengenali kebiasaan-kebiasaan di lingkungan keluarga, satuan pendidikan, dan masyarakat.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00007",
+      "tp_id": "tp_00007",
+      "no_tujuan_pembelajaran": 7,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mengenali, mengekspresikan, dan mengelola emosi diri, serta membangun hubungan sosial secara sehat.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mengenali, mengekspresikan, dan mengelola emosi diri, serta membangun hubungan sosial secara sehat."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mengenali, mengekspresikan, dan mengelola emosi diri, serta membangun hubungan sosial secara sehat.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00008",
+      "tp_id": "tp_00008",
+      "no_tujuan_pembelajaran": 8,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mengenali perannya sebagai bagian dari keluarga, satuan pendidikan, masyarakat dan warga negara Indonesia sehingga dapat menyesuaikan diri dengan lingkungan, aturan dan norma yang berlaku, dan mengetahui keberadaan negara lain di dunia.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mengenali perannya sebagai bagian dari keluarga, satuan pendidikan, masyarakat dan warga negara Indonesia sehingga dapat menyesuaikan diri dengan lingkungan, aturan dan norma yang berlaku, dan mengetahui keberadaan negara lain di dunia."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mengenali perannya sebagai bagian dari keluarga, satuan pendidikan, masyarakat dan warga negara Indonesia sehingga dapat menyesuaikan diri dengan lingkungan, aturan dan norma yang berlaku, dan mengetahui keberadaan negara lain di dunia.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00009",
+      "tp_id": "tp_00009",
+      "no_tujuan_pembelajaran": 9,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid memiliki fungsi gerak (motorik kasar, halus, dan taktil) untuk merawat dirinya, membangun kemandirian dan berkegiatan.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid memiliki fungsi gerak (motorik kasar, halus, dan taktil) untuk merawat dirinya, membangun kemandirian dan berkegiatan."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid memiliki fungsi gerak (motorik kasar, halus, dan taktil) untuk merawat dirinya, membangun kemandirian dan berkegiatan.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00010",
+      "tp_id": "tp_00010",
+      "no_tujuan_pembelajaran": 10,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mengenali dan memahami berbagai informasi, mengomunikasikan perasaan dan pikiran secara lisan, tulisan, atau menggunakan berbagai media serta membangun percakapan, menunjukkan minat, dan berpartisipasi dalam kegiatan pramembaca.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mengenali dan memahami berbagai informasi, mengomunikasikan perasaan dan pikiran secara lisan, tulisan, atau menggunakan berbagai media serta membangun percakapan, menunjukkan minat, dan berpartisipasi dalam kegiatan pramembaca."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mengenali dan memahami berbagai informasi, mengomunikasikan perasaan dan pikiran secara lisan, tulisan, atau menggunakan berbagai media serta membangun percakapan, menunjukkan minat, dan berpartisipasi dalam kegiatan pramembaca.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00011",
+      "tp_id": "tp_00011",
+      "no_tujuan_pembelajaran": 11,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid memiliki kepekaan bilangan.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid memiliki kepekaan bilangan."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid memiliki kepekaan bilangan.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00012",
+      "tp_id": "tp_00012",
+      "no_tujuan_pembelajaran": 12,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mampu mengidentifikasi pola.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu mengidentifikasi pola."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu mengidentifikasi pola.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00013",
+      "tp_id": "tp_00013",
+      "no_tujuan_pembelajaran": 13,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mampu memiliki kesadaran tentang bentuk, posisi, dan ruang.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memiliki kesadaran tentang bentuk, posisi, dan ruang."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memiliki kesadaran tentang bentuk, posisi, dan ruang.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00014",
+      "tp_id": "tp_00014",
+      "no_tujuan_pembelajaran": 14,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mampu menyadari adanya persamaan dan perbedaan karakteristik antar objek.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu menyadari adanya persamaan dan perbedaan karakteristik antar objek."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu menyadari adanya persamaan dan perbedaan karakteristik antar objek.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00015",
+      "tp_id": "tp_00015",
+      "no_tujuan_pembelajaran": 15,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mampu melakukan pengukuran dengan satuan tidak baku.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu melakukan pengukuran dengan satuan tidak baku."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu melakukan pengukuran dengan satuan tidak baku.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00016",
+      "tp_id": "tp_00016",
+      "no_tujuan_pembelajaran": 16,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mampu memiliki kesadaran mengenai waktu.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memiliki kesadaran mengenai waktu."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memiliki kesadaran mengenai waktu.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00017",
+      "tp_id": "tp_00017",
+      "no_tujuan_pembelajaran": 17,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mampu mengamati, menyebutkan alasan, pilihan atau keputusannya, mampu memecahkan masalah sederhana, serta mengetahui hubungan sebab akibat dari suatu kondisi atau situasi yang dipengaruhi oleh hukum alam dan kondisi sosial.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu mengamati, menyebutkan alasan, pilihan atau keputusannya, mampu memecahkan masalah sederhana, serta mengetahui hubungan sebab akibat dari suatu kondisi atau situasi yang dipengaruhi oleh hukum alam dan kondisi sosial."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu mengamati, menyebutkan alasan, pilihan atau keputusannya, mampu memecahkan masalah sederhana, serta mengetahui hubungan sebab akibat dari suatu kondisi atau situasi yang dipengaruhi oleh hukum alam dan kondisi sosial.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00018",
+      "tp_id": "tp_00018",
+      "no_tujuan_pembelajaran": 18,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid menunjukkan kemampuan awal menggunakan dan merekayasa teknologi serta untuk mencari informasi, gagasan, dan keterampilan secara aman dan bertanggung jawab.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid menunjukkan kemampuan awal menggunakan dan merekayasa teknologi serta untuk mencari informasi, gagasan, dan keterampilan secara aman dan bertanggung jawab."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid menunjukkan kemampuan awal menggunakan dan merekayasa teknologi serta untuk mencari informasi, gagasan, dan keterampilan secara aman dan bertanggung jawab.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00019",
+      "tp_id": "tp_00019",
+      "no_tujuan_pembelajaran": 19,
+      "cp_id": "cp_0001_d1abc995",
+      "no_cp": 1,
+      "jenjang": "PAUD",
+      "fase": "F",
+      "kelas": "Fase Fondasi",
+      "mata_pelajaran": "PAUD",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni.",
+      "tujuan_pembelajaran": "Murid mengeksplorasi berbagai proses seni, mengekspresikannya, serta mengapresiasi karya seni.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "PAUD",
+            "fase": "F",
+            "kelas": "Fase Fondasi",
+            "mata_pelajaran": "PAUD",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PAUD — Fase Fondasi. Rumusan Capaian Pembelajaran Fase Fondasi terdiri dari tiga elemen yang saling terkait: Nilai Agama dan Budi Pekerti; Jati Diri; serta Dasar-dasar Literasi, Matematika, Sains, Teknologi, Rekayasa, dan Seni."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mengeksplorasi berbagai proses seni, mengekspresikannya, serta mengapresiasi karya seni."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mengeksplorasi berbagai proses seni, mengekspresikannya, serta mengapresiasi karya seni.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00020",
+      "tp_id": "tp_00020",
+      "no_tujuan_pembelajaran": 20,
+      "cp_id": "cp_0002_c687e149",
+      "no_cp": 2,
+      "jenjang": "SD/MI/Program Paket A",
+      "fase": "A",
+      "kelas": "I–II",
+      "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam.",
+      "tujuan_pembelajaran": "Murid mampu memahami huruf hijaiah berharakat, huruf hijaiah bersambung, Surah al-Fātiḥah, beberapa surah pendek Al-Qur’an, dan hadis tentang kebersihan.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "SD/MI/Program Paket A",
+            "fase": "A",
+            "kelas": "I–II",
+            "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memahami huruf hijaiah berharakat, huruf hijaiah bersambung, Surah al-Fātiḥah, beberapa surah pendek Al-Qur’an, dan hadis tentang kebersihan."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memahami huruf hijaiah berharakat, huruf hijaiah bersambung, Surah al-Fātiḥah, beberapa surah pendek Al-Qur’an, dan hadis tentang kebersihan.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00021",
+      "tp_id": "tp_00021",
+      "no_tujuan_pembelajaran": 21,
+      "cp_id": "cp_0002_c687e149",
+      "no_cp": 2,
+      "jenjang": "SD/MI/Program Paket A",
+      "fase": "A",
+      "kelas": "I–II",
+      "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam.",
+      "tujuan_pembelajaran": "Murid mampu memahami rukun iman, iman kepada Allah Swt., beberapa asmaulhusna, dan iman kepada malaikat.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "SD/MI/Program Paket A",
+            "fase": "A",
+            "kelas": "I–II",
+            "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memahami rukun iman, iman kepada Allah Swt., beberapa asmaulhusna, dan iman kepada malaikat."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memahami rukun iman, iman kepada Allah Swt., beberapa asmaulhusna, dan iman kepada malaikat.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00022",
+      "tp_id": "tp_00022",
+      "no_tujuan_pembelajaran": 22,
+      "cp_id": "cp_0002_c687e149",
+      "no_cp": 2,
+      "jenjang": "SD/MI/Program Paket A",
+      "fase": "A",
+      "kelas": "I–II",
+      "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam.",
+      "tujuan_pembelajaran": "Murid mampu memahami akhlak terhadap Allah Swt. dengan menyucikan dan memuji-Nya dan akhlak terhadap diri sendiri.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "SD/MI/Program Paket A",
+            "fase": "A",
+            "kelas": "I–II",
+            "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memahami akhlak terhadap Allah Swt. dengan menyucikan dan memuji-Nya dan akhlak terhadap diri sendiri."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memahami akhlak terhadap Allah Swt. dengan menyucikan dan memuji-Nya dan akhlak terhadap diri sendiri.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00023",
+      "tp_id": "tp_00023",
+      "no_tujuan_pembelajaran": 23,
+      "cp_id": "cp_0002_c687e149",
+      "no_cp": 2,
+      "jenjang": "SD/MI/Program Paket A",
+      "fase": "A",
+      "kelas": "I–II",
+      "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam.",
+      "tujuan_pembelajaran": "Murid mampu memahami rukun Islam, syahadatain, tata cara bersuci, salat fardu, azan, ikamah, zikir, dan berdoa setelah salat.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "SD/MI/Program Paket A",
+            "fase": "A",
+            "kelas": "I–II",
+            "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memahami rukun Islam, syahadatain, tata cara bersuci, salat fardu, azan, ikamah, zikir, dan berdoa setelah salat."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memahami rukun Islam, syahadatain, tata cara bersuci, salat fardu, azan, ikamah, zikir, dan berdoa setelah salat.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rpp_tp_00024",
+      "tp_id": "tp_00024",
+      "no_tujuan_pembelajaran": 24,
+      "cp_id": "cp_0002_c687e149",
+      "no_cp": 2,
+      "jenjang": "SD/MI/Program Paket A",
+      "fase": "A",
+      "kelas": "I–II",
+      "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+      "semester": "Tidak ditetapkan per semester",
+      "alokasi_waktu": "Disesuaikan satuan pendidikan",
+      "capaian_pembelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam.",
+      "tujuan_pembelajaran": "Murid mampu memahami kisah beberapa nabi dan rasul.",
+      "bagian": {
+        "A": {
+          "judul": "Identitas dan Informasi Umum",
+          "isi": {
+            "jenjang": "SD/MI/Program Paket A",
+            "fase": "A",
+            "kelas": "I–II",
+            "mata_pelajaran": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI",
+            "semester": "Tidak ditetapkan per semester",
+            "alokasi_waktu": "Disesuaikan satuan pendidikan"
+          }
+        },
+        "B": {
+          "judul": "Capaian Pembelajaran",
+          "isi": "PENDIDIKAN AGAMA ISLAM DAN BUDI PEKERTI — Fase A. Mencakup elemen Al-Qur’an Hadis, Akidah, Akhlak, Fikih, dan Sejarah Peradaban Islam."
+        },
+        "C": {
+          "judul": "Tujuan Pembelajaran",
+          "isi": "Murid mampu memahami kisah beberapa nabi dan rasul."
+        },
+        "D": {
+          "judul": "Pemahaman Bermakna",
+          "isi": "Peserta didik menghubungkan tujuan pembelajaran dengan pengalaman nyata dan mampu menjelaskan maknanya dalam konteks kehidupan sehari-hari."
+        },
+        "E": {
+          "judul": "Pertanyaan Pemantik",
+          "isi": [
+            "Apa yang sudah kamu ketahui tentang topik ini?",
+            "Di mana kamu menjumpai hal ini dalam kehidupan sehari-hari?",
+            "Mengapa pengetahuan atau keterampilan ini penting untuk dipelajari?"
+          ]
+        },
+        "F": {
+          "judul": "Kegiatan Pembelajaran",
+          "isi": {
+            "Pendahuluan": [
+              "Guru membuka pembelajaran, membangun kesiapan belajar, dan mengaitkan materi dengan pengalaman peserta didik.",
+              "Guru menyampaikan tujuan pembelajaran dan kriteria keberhasilan."
+            ],
+            "Kegiatan Inti": [
+              "Peserta didik mengamati, mengeksplorasi, berdiskusi, dan/atau melakukan aktivitas yang relevan dengan tujuan pembelajaran.",
+              "Guru memfasilitasi pengalaman memahami, mengaplikasi, dan merefleksi.",
+              "Peserta didik menunjukkan bukti belajar melalui tugas, karya, praktik, diskusi, atau bentuk lain yang sesuai."
+            ],
+            "Penutup": [
+              "Peserta didik melakukan refleksi singkat terhadap pemahaman dan proses belajarnya.",
+              "Guru memberikan umpan balik, menyimpulkan pembelajaran, dan menyampaikan tindak lanjut."
+            ]
+          }
+        },
+        "G": {
+          "judul": "Pembelajaran Mendalam",
+          "isi": {
+            "Berkesadaran": "Peserta didik memahami tujuan, proses, dan strategi belajarnya.",
+            "Bermakna": "Pembelajaran dihubungkan dengan konteks nyata dan pengalaman peserta didik.",
+            "Menggembirakan": "Pembelajaran memberi ruang partisipasi, rasa aman, eksplorasi, dan keberhasilan belajar."
+          }
+        },
+        "H": {
+          "judul": "Asesmen",
+          "isi": {
+            "Diagnostik": "Pertanyaan awal atau aktivitas singkat untuk memetakan pengetahuan awal peserta didik.",
+            "Formatif": "Observasi, pertanyaan lisan, catatan proses, kuis, praktik, atau produk selama pembelajaran.",
+            "Sumatif": "Tugas atau produk yang menunjukkan ketercapaian tujuan pembelajaran.",
+            "Kriteria_Ketercapaian": "Ditentukan berdasarkan indikator performa yang relevan dengan tujuan pembelajaran."
+          }
+        },
+        "I": {
+          "judul": "Remedial dan Pengayaan",
+          "isi": {
+            "Remedial": "Pendampingan, penjelasan ulang, latihan bertahap, dan kesempatan memperbaiki bukti belajar.",
+            "Pengayaan": "Tantangan lanjutan, eksplorasi konteks lain, atau produk yang menuntut penerapan lebih luas."
+          }
+        },
+        "J": {
+          "judul": "Refleksi",
+          "isi": {
+            "Guru": [
+              "Apakah tujuan pembelajaran tercapai?",
+              "Bagian mana yang efektif dan perlu dipertahankan?",
+              "Peserta didik mana yang memerlukan tindak lanjut?"
+            ],
+            "Peserta_Didik": [
+              "Apa yang saya pahami hari ini?",
+              "Apa yang masih sulit?",
+              "Apa yang akan saya lakukan setelah pembelajaran ini?"
+            ]
+          }
+        },
+        "K": {
+          "judul": "LKPD",
+          "isi": {
+            "Tujuan": "Murid mampu memahami kisah beberapa nabi dan rasul.",
+            "Petunjuk": [
+              "Baca atau dengarkan instruksi dengan saksama.",
+              "Kerjakan aktivitas secara mandiri atau kolaboratif sesuai arahan guru.",
+              "Tuliskan atau tunjukkan hasil belajar dengan jelas."
+            ],
+            "Aktivitas": [
+              "Identifikasi informasi penting terkait topik.",
+              "Lakukan aktivitas utama sesuai tujuan pembelajaran.",
+              "Tuliskan atau sampaikan kesimpulan dan refleksi."
+            ]
+          }
+        },
+        "L": {
+          "judul": "Glosarium",
+          "isi": [
+            {
+              "istilah": "Capaian Pembelajaran",
+              "arti": "Kompetensi pembelajaran yang harus dicapai peserta didik pada akhir fase."
+            },
+            {
+              "istilah": "Tujuan Pembelajaran",
+              "arti": "Rumusan kompetensi yang diharapkan dicapai peserta didik melalui proses pembelajaran."
+            }
+          ]
+        },
+        "M": {
+          "judul": "Daftar Pustaka",
+          "isi": [
+            "Dokumen Capaian Pembelajaran dan Tujuan Pembelajaran yang berlaku.",
+            "Sumber belajar relevan yang digunakan oleh satuan pendidikan."
+          ]
+        }
+      }
+    }
+  ]
+}
