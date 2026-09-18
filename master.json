@@ -58,14 +58,17 @@
     },
     "integration_feature": {
       "enabled": true,
-      "version": "2.0",
-      "catalog_count": 9,
+      "version": "2.1.1",
+      "catalog_count": 10,
       "total_tp_processed": 5034,
       "tp_with_recommended_integration": 3043,
       "tp_without_automatic_recommendation": 1991,
       "maximum_recommendations_per_tp": 3,
       "selection_policy": "selective_relevance",
-      "note": "Semua TP memiliki field integrasi_rekomendasi, rencana_integrasi, dan rencana_pembelajaran.integrasi_lintas_isu; list rekomendasi dapat kosong bila tidak ada keterkaitan yang cukup kuat."
+      "note": "Semua TP memiliki field integrasi_rekomendasi, rencana_integrasi, dan rencana_pembelajaran.integrasi_lintas_isu; list rekomendasi dapat kosong bila tidak ada keterkaitan yang cukup kuat.",
+      "ssk_enabled": true,
+      "ssk_basis": "Integrasi pendidikan kependudukan ke pembelajaran; mencakup dinamika kependudukan, pembangunan keluarga, kesehatan remaja, perencanaan kehidupan, dan data kependudukan.",
+      "ssk_recommendation_policy": "selective_contextual_relevance"
     },
     "application_identity": {
       "tp_unique_key": "tp_uid",
@@ -74,7 +77,7 @@
       "reason": "Sumber memiliki beberapa tp_id/no_tujuan_pembelajaran berulang; tp_uid mencegah tabrakan pilihan pada aplikasi tanpa mengubah data sumber."
     },
     "validation_final": {
-      "validated_at": "2026-09-18T17:21:04.458101+07:00",
+      "validated_at": "2026-09-18T17:32:29.571226+07:00",
       "total_capaian_pembelajaran": 576,
       "total_tujuan_pembelajaran": 5034,
       "phases_present": [
@@ -100,7 +103,9 @@
       "duplicate_source_tp_id_distinct_values": 156,
       "duplicate_source_no_tp_distinct_values": 156,
       "source_rows_unique": true,
-      "status": "VALID"
+      "status": "VALID",
+      "integration_catalog_count": 10,
+      "ssk_recommended_tp": 23
     },
     "integration_counts": {
       "Pendidikan Lingkungan Hidup": 297,
@@ -111,7 +116,8 @@
       "Literasi Digital": 284,
       "Kecerdasan Artifisial": 26,
       "Kearifan Lokal dan Pelestarian Budaya": 209,
-      "Pendidikan Inklusi dan Kesadaran Disabilitas": 2242
+      "Pendidikan Inklusi dan Kesadaran Disabilitas": 2242,
+      "Sekolah Siaga Kependudukan": 23
     }
   },
   "schema": {
@@ -19195,9 +19201,19 @@
           "source_row": 782,
           "tp_uid": "tp_00733_r00782",
           "integrasi_rekomendasi": [
+            "ssk",
             "lingkungan"
           ],
           "rencana_integrasi": {
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 8.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: geografi penduduk.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+            },
             "lingkungan": {
               "nama": "Pendidikan Lingkungan Hidup",
               "tingkat_relevansi": "sedang",
@@ -19212,9 +19228,19 @@
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
+                "ssk",
                 "lingkungan"
               ],
               "rencana": {
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 8.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: geografi penduduk.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+                },
                 "lingkungan": {
                   "nama": "Pendidikan Lingkungan Hidup",
                   "tingkat_relevansi": "sedang",
@@ -19596,7 +19622,8 @@
           "source_row": 791,
           "tp_uid": "tp_00742_r00791",
           "integrasi_rekomendasi": [
-            "finansial"
+            "finansial",
+            "ssk"
           ],
           "rencana_integrasi": {
             "finansial": {
@@ -19607,13 +19634,23 @@
               "aktivitas": "Menggunakan konteks uang atau sumber daya untuk membandingkan kebutuhan dan keinginan, biaya-manfaat, prioritas, risiko, perencanaan, dan keputusan finansial yang bertanggung jawab.",
               "asesmen": "Menilai ketepatan perhitungan atau pertimbangan, prioritas kebutuhan, alasan keputusan, serta pemahaman risiko dan konsekuensi finansial.",
               "refleksi": "Bagaimana pembelajaran ini membantu saya membuat keputusan keuangan atau penggunaan sumber daya yang lebih bertanggung jawab?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 7.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: ketenagakerjaan.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "finansial"
+                "finansial",
+                "ssk"
               ],
               "rencana": {
                 "finansial": {
@@ -19624,6 +19661,15 @@
                   "aktivitas": "Menggunakan konteks uang atau sumber daya untuk membandingkan kebutuhan dan keinginan, biaya-manfaat, prioritas, risiko, perencanaan, dan keputusan finansial yang bertanggung jawab.",
                   "asesmen": "Menilai ketepatan perhitungan atau pertimbangan, prioritas kebutuhan, alasan keputusan, serta pemahaman risiko dan konsekuensi finansial.",
                   "refleksi": "Bagaimana pembelajaran ini membantu saya membuat keputusan keuangan atau penggunaan sumber daya yang lebih bertanggung jawab?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 7.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: ketenagakerjaan.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -94217,7 +94263,8 @@
           "source_row": 3253,
           "tp_uid": "tp_03125_r03253",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -94228,13 +94275,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -94245,6 +94302,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -151012,7 +151078,8 @@
           "source_row": 4510,
           "tp_uid": "tp_04338_r04510",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -151023,13 +151090,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 8.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -151040,6 +151117,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 8.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -152110,7 +152196,8 @@
           "source_row": 4535,
           "tp_uid": "tp_04363_r04535",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -152121,13 +152208,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 8.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -152138,6 +152235,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 8.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -152151,7 +152257,8 @@
           "source_row": 4536,
           "tp_uid": "tp_04364_r04536",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -152162,13 +152269,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -152179,6 +152296,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -152192,7 +152318,8 @@
           "source_row": 4537,
           "tp_uid": "tp_04365_r04537",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -152203,13 +152330,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -152220,6 +152357,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -152899,9 +153045,19 @@
           "source_row": 4552,
           "tp_uid": "tp_04380_r04552",
           "integrasi_rekomendasi": [
+            "ssk",
             "inklusi_disabilitas"
           ],
           "rencana_integrasi": {
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 18.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, keluarga berencana.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+            },
             "inklusi_disabilitas": {
               "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
               "tingkat_relevansi": "tinggi",
@@ -152916,9 +153072,19 @@
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
+                "ssk",
                 "inklusi_disabilitas"
               ],
               "rencana": {
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 18.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, keluarga berencana.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+                },
                 "inklusi_disabilitas": {
                   "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
                   "tingkat_relevansi": "tinggi",
@@ -153279,9 +153445,19 @@
           "source_row": 4560,
           "tp_uid": "tp_04388_r04560",
           "integrasi_rekomendasi": [
+            "ssk",
             "inklusi_disabilitas"
           ],
           "rencana_integrasi": {
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 18.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, keluarga berencana.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+            },
             "inklusi_disabilitas": {
               "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
               "tingkat_relevansi": "tinggi",
@@ -153296,9 +153472,19 @@
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
+                "ssk",
                 "inklusi_disabilitas"
               ],
               "rencana": {
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 18.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, keluarga berencana.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+                },
                 "inklusi_disabilitas": {
                   "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
                   "tingkat_relevansi": "tinggi",
@@ -154923,6 +155109,7 @@
           "tp_uid": "tp_04426_r04617",
           "integrasi_rekomendasi": [
             "inklusi_disabilitas",
+            "ssk",
             "mitigasi_bencana"
           ],
           "rencana_integrasi": {
@@ -154934,6 +155121,15 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 8.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             },
             "mitigasi_bencana": {
               "nama": "Pendidikan Mitigasi dan Penanggulangan Bencana",
@@ -154950,6 +155146,7 @@
               "diterapkan": true,
               "rekomendasi": [
                 "inklusi_disabilitas",
+                "ssk",
                 "mitigasi_bencana"
               ],
               "rencana": {
@@ -154961,6 +155158,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 8.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 },
                 "mitigasi_bencana": {
                   "nama": "Pendidikan Mitigasi dan Penanggulangan Bencana",
@@ -156245,7 +156451,8 @@
           "source_row": 4649,
           "tp_uid": "tp_04452_r04649",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -156256,13 +156463,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 14.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -156273,6 +156490,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 14.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -157753,7 +157979,8 @@
           "source_row": 4668,
           "tp_uid": "tp_04471_r04668",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -157764,13 +157991,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 14.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -157781,6 +158018,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 14.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi, pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -158523,9 +158769,19 @@
           "source_row": 4692,
           "tp_uid": "tp_04488_r04692",
           "integrasi_rekomendasi": [
+            "ssk",
             "inklusi_disabilitas"
           ],
           "rencana_integrasi": {
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 13.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas, kehamilan.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+            },
             "inklusi_disabilitas": {
               "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
               "tingkat_relevansi": "tinggi",
@@ -158540,9 +158796,19 @@
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
+                "ssk",
                 "inklusi_disabilitas"
               ],
               "rencana": {
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 13.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas, kehamilan.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+                },
                 "inklusi_disabilitas": {
                   "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
                   "tingkat_relevansi": "tinggi",
@@ -159293,9 +159559,19 @@
           "source_row": 4702,
           "tp_uid": "tp_04498_r04702",
           "integrasi_rekomendasi": [
+            "ssk",
             "inklusi_disabilitas"
           ],
           "rencana_integrasi": {
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 13.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas, kehamilan.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+            },
             "inklusi_disabilitas": {
               "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
               "tingkat_relevansi": "tinggi",
@@ -159310,9 +159586,19 @@
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
+                "ssk",
                 "inklusi_disabilitas"
               ],
               "rencana": {
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 13.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas, kehamilan.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+                },
                 "inklusi_disabilitas": {
                   "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
                   "tingkat_relevansi": "tinggi",
@@ -160784,7 +161070,8 @@
           "source_row": 4737,
           "tp_uid": "tp_04533_r04737",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -160795,13 +161082,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -160812,6 +161109,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -166490,7 +166796,8 @@
           "source_row": 4871,
           "tp_uid": "tp_04666_r04871",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -166501,13 +166808,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -166518,6 +166835,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -166818,7 +167144,8 @@
           "source_row": 4881,
           "tp_uid": "tp_04674_r04881",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -166829,13 +167156,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -166846,6 +167183,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -167609,9 +167955,19 @@
           "source_row": 4900,
           "tp_uid": "tp_04693_r04900",
           "integrasi_rekomendasi": [
+            "ssk",
             "inklusi_disabilitas"
           ],
           "rencana_integrasi": {
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 22.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi remaja, kesehatan reproduksi, remaja.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+            },
             "inklusi_disabilitas": {
               "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
               "tingkat_relevansi": "tinggi",
@@ -167626,9 +167982,19 @@
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
+                "ssk",
                 "inklusi_disabilitas"
               ],
               "rencana": {
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 22.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi remaja, kesehatan reproduksi, remaja.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
+                },
                 "inklusi_disabilitas": {
                   "nama": "Pendidikan Inklusi dan Kesadaran Disabilitas",
                   "tingkat_relevansi": "tinggi",
@@ -169457,7 +169823,8 @@
           "source_row": 4942,
           "tp_uid": "tp_04735_r04942",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -169468,13 +169835,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -169485,6 +169862,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -169744,7 +170130,8 @@
           "source_row": 4949,
           "tp_uid": "tp_04742_r04949",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -169755,13 +170142,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 6.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -169772,6 +170169,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 6.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: pubertas.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -172366,7 +172772,8 @@
           "source_row": 5011,
           "tp_uid": "tp_04803_r05011",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -172377,13 +172784,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "tinggi",
+              "skor_relevansi": 11.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: seks bebas, remaja.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -172394,6 +172811,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "tinggi",
+                  "skor_relevansi": 11.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: seks bebas, remaja.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -172796,7 +173222,8 @@
           "source_row": 5022,
           "tp_uid": "tp_04813_r05022",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -172807,13 +173234,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 8.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -172824,6 +173261,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 8.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -173422,7 +173868,8 @@
           "source_row": 5035,
           "tp_uid": "tp_04826_r05035",
           "integrasi_rekomendasi": [
-            "inklusi_disabilitas"
+            "inklusi_disabilitas",
+            "ssk"
           ],
           "rencana_integrasi": {
             "inklusi_disabilitas": {
@@ -173433,13 +173880,23 @@
               "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
               "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
               "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+            },
+            "ssk": {
+              "nama": "Sekolah Siaga Kependudukan",
+              "tingkat_relevansi": "sedang",
+              "skor_relevansi": 8.0,
+              "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+              "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+              "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+              "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
             }
           },
           "rencana_pembelajaran": {
             "integrasi_lintas_isu": {
               "diterapkan": true,
               "rekomendasi": [
-                "inklusi_disabilitas"
+                "inklusi_disabilitas",
+                "ssk"
               ],
               "rencana": {
                 "inklusi_disabilitas": {
@@ -173450,6 +173907,15 @@
                   "aktivitas": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
                   "asesmen": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
                   "refleksi": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+                },
+                "ssk": {
+                  "nama": "Sekolah Siaga Kependudukan",
+                  "tingkat_relevansi": "sedang",
+                  "skor_relevansi": 8.0,
+                  "alasan_relevansi": "Relevan dengan pendidikan kependudukan karena TP memuat konteks: kesehatan reproduksi.",
+                  "aktivitas": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+                  "asesmen": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+                  "refleksi": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
                 }
               }
             }
@@ -173459,14 +173925,15 @@
     }
   ],
   "integrasi_lintas_isu": {
-    "version": "2.0",
+    "version": "2.1",
     "mode": "rekomendasi_otomatis_dapat_diubah_guru",
     "maksimum_rekomendasi_otomatis": 3,
     "prinsip": [
       "Integrasi dipilih hanya apabila relevan dengan Tujuan Pembelajaran, mata pelajaran, jenjang, atau konteks pembelajaran.",
       "Integrasi tidak mengubah substansi Capaian Pembelajaran dan Tujuan Pembelajaran sumber.",
       "Guru dapat menambah atau menghapus pilihan berdasarkan kebutuhan murid, konteks lokal, sarana, dan kejadian aktual.",
-      "Integrasi yang dipilih harus tampak pada aktivitas, asesmen, dan/atau refleksi, bukan hanya sebagai label."
+      "Integrasi yang dipilih harus tampak pada aktivitas, asesmen, dan/atau refleksi, bukan hanya sebagai label.",
+      "Sekolah Siaga Kependudukan diintegrasikan ke mata pelajaran yang relevan tanpa menjadi mata pelajaran baru; penerapannya disesuaikan dengan fase, konteks lokal, dan kebutuhan perkembangan murid."
     ],
     "opsi": [
       {
@@ -173540,6 +174007,14 @@
         "aktivitas_default": "Murid mengidentifikasi hambatan partisipasi, mempertimbangkan kebutuhan yang beragam, serta merancang cara, produk, lingkungan, atau komunikasi yang lebih aksesibel dan tidak diskriminatif.",
         "asesmen_default": "Menilai kemampuan mengenali hambatan akses, menghargai perbedaan, dan mengusulkan penyesuaian yang memungkinkan partisipasi setara.",
         "refleksi_default": "Apa yang dapat saya lakukan agar kegiatan, informasi, produk, atau lingkungan lebih mudah diakses dan adil bagi semua?"
+      },
+      {
+        "id": "ssk",
+        "nama": "Sekolah Siaga Kependudukan",
+        "deskripsi": "Mengintegrasikan wawasan kependudukan, pembangunan keluarga, kesehatan remaja, perencanaan kehidupan, dan pemanfaatan data kependudukan ke dalam pembelajaran secara kontekstual dan sesuai fase perkembangan murid.",
+        "aktivitas_default": "Menggunakan data, kasus, atau fenomena kependudukan yang sesuai usia/fase—misalnya jumlah dan persebaran penduduk, bonus demografi, kualitas penduduk, kesehatan remaja, pembangunan keluarga, stunting, perkawinan usia anak, atau perencanaan masa depan—untuk dianalisis dan dihubungkan dengan keputusan yang bertanggung jawab.",
+        "asesmen_default": "Menilai ketepatan membaca informasi atau data kependudukan, kemampuan menghubungkan sebab-akibat, kualitas argumentasi, serta kemampuan merumuskan sikap atau solusi yang mendukung keluarga berkualitas dan pembangunan berkelanjutan.",
+        "refleksi_default": "Bagaimana isu kependudukan yang dipelajari memengaruhi kehidupan saya, keluarga, masyarakat, dan perencanaan masa depan yang bertanggung jawab?"
       }
     ],
     "aturan_rekomendasi": {
@@ -173776,6 +174251,54 @@
           "perbedaan identitas",
           "kesetaraan gender",
           "martabat manusia"
+        ]
+      },
+      "ssk": {
+        "strong": [
+          "sekolah siaga kependudukan",
+          "pendidikan kependudukan",
+          "kependudukan",
+          "bonus demografi",
+          "geografi penduduk",
+          "pertumbuhan penduduk",
+          "persebaran penduduk",
+          "kepadatan penduduk",
+          "mobilitas penduduk",
+          "migrasi penduduk",
+          "urbanisasi",
+          "fertilitas",
+          "mortalitas",
+          "sensus penduduk",
+          "data kependudukan",
+          "piramida penduduk",
+          "rasio ketergantungan",
+          "kualitas penduduk",
+          "usia produktif",
+          "kesehatan reproduksi remaja",
+          "kesehatan reproduksi",
+          "keluarga berencana",
+          "stunting",
+          "perkawinan usia anak",
+          "pernikahan dini",
+          "perkawinan dini",
+          "pubertas",
+          "kehamilan",
+          "seks bebas"
+        ],
+        "keywords": [
+          "ketenagakerjaan",
+          "remaja",
+          "napza",
+          "seksualitas",
+          "perencanaan masa depan"
+        ],
+        "exclusions": [
+          "kelahiran kembali",
+          "kisah kelahiran",
+          "kelahiran yesus",
+          "kelahiran musa",
+          "kesehatan hewan",
+          "reproduksi hewan"
         ]
       }
     }
